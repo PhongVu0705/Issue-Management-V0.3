@@ -12,3 +12,55 @@
 .navbar-brand {
   width: 50%;
 }
+.btn-red {
+  background-color: #c2112d;
+  color: white;
+  border: none;
+}
+.btn-red:hover {
+  background-color: #b30000;
+}
+.btn-green {
+  background-color: #28a745;
+  color: white;
+  border: none;
+}
+.btn-green:hover {
+  background-color: #218838;
+}
+.font-white {
+  color: #ffffff;
+}
+.btn-yellow {
+  background-color: #ffc107;
+  color: black;
+  border: none;
+}
+.btn-yellow:hover {
+  background-color: #e0a800;
+}
+.status-width {
+  width: 100px;
+}
+.btn-gray {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+}
+.btn-gray:hover {
+  background-color: #5a6268;
+}
+.btn-white {
+  background-color: #ffffff;
+  color: #c2112d;
+  border: #c2112d solid 1px;
+}
+.btn-white:hover {
+  background-color: #f2f2f2;
+}
+#dt-length-0 {
+  margin-right: 10px;
+}
+#dt-search-0 {
+  margin-left: 10px;
+}

@@ -47,10 +47,40 @@
         <h2 class="header-text">Issue Management</h2>
       </nav>
     </div>
-
     <!-- modal -->
-
+    <!-- modal deleted -->
+    <div class="modal fade" id="modal-deleted">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Add Issue/Task</h5>
+            <button class="btn-close"></button>
+          </div>
+          <div class="modal-body"></div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
     <!-- body -->
+    <div class="container mt-5">
+      <button class="btn btn-red" id="btn-add-issue">Add Issue</button>
+      <table class="table table-striped text-center" id="dataTable">
+        <thead>
+          <tr>
+            <th>Project No.</th>
+            <th>Project Name</th>
+            <th>Type</th>
+            <th>Task/Issue Name</th>
+            <th>PCBA P/N</th>
+            <th>PIC</th>
+            <th>Stage</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
